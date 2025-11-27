@@ -3,6 +3,7 @@
 		<NavBar />
 		<v-main>
 			<slot />
+			<Footer />
 		</v-main>
 	</v-app>
 </template>
@@ -11,5 +12,3 @@ export default {
 	name: 'DefaultLayout',
 }
 </script>
-
-
