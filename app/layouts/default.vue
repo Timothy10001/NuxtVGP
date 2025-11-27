@@ -1,5 +1,6 @@
 <template>
-	<v-app theme="dark">
+	<v-app>
+		<NavBar />
 		<v-main>
 			<slot />
 		</v-main>
@@ -10,3 +11,5 @@ export default {
 	name: 'DefaultLayout',
 }
 </script>
+
+

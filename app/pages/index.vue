@@ -1,7 +1,2 @@
-<template>
-	<slot />
-	<slot />
-	<slot />
-	<Footer />
-</template>
+<template></template>
 <script lang="ts" setup></script>
